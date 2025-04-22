@@ -23,7 +23,7 @@ const Hero: FC = () => {
           </div>
         </div>
         <div className="md:col-span-5">
-          <div className="mt-20 md:mt-0 h-full">
+          <div className="mt-20 md:mt-0 md:h-full">
             <Image src={heroImage} alt="xyz" className="size-full object-cover" />
           </div>
         </div>
