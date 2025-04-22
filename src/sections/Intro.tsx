@@ -10,7 +10,7 @@ const Intro: FC = () => {
             href="https://nextjs.org"
             target="_blank"
             rel="noopener noreferrer"
-            className="decoration-wavy underline underline-offset-4 decoration-gray-400"
+            className="decoration-dashed underline underline-offset-4 decoration-gray-400"
           >
             nextjs
           </a>{" "}
@@ -19,12 +19,13 @@ const Intro: FC = () => {
             href="https://tailwindcss.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="decoration-wavy underline underline-offset-4 decoration-gray-400"
+            className="decoration-dashed underline underline-offset-4 decoration-gray-400"
           >
             tailwind
           </a>{" "}
-          landing pages tailored to ur brand vibe and goals
+          web things — landings, dashboards, vibes n all
         </h2>
+
       </div>
     </section>
   );
