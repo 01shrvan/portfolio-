@@ -1,6 +1,5 @@
 import { FC } from "react";
 
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const faqs = [
   {
     question: "How long does it take to build a website?",
@@ -29,3 +28,7 @@ const FAQs: FC = () => {
 };
 
 export default FAQs;
+
+
+
+// irl frames
