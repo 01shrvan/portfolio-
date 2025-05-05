@@ -48,7 +48,6 @@ const IRLFrames: FC = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
-    // Animate title on load
     if (titleRef.current) {
       animate(
         titleRef.current,
@@ -60,7 +59,6 @@ const IRLFrames: FC = () => {
       );
     }
 
-    // Animate grid items when they come into view
     if (gridRef.current) {
       const frameItems = gridRef.current.querySelectorAll('.frame-item');
 
