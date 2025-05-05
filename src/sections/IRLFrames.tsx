@@ -4,7 +4,6 @@ import { FC, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { animate, spring } from "motion";
 
-// Frame data with aspect ratios and positioning
 const frames = [
   {
     id: 1,
